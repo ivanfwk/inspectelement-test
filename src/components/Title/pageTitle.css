@@ -1,0 +1,19 @@
+.title {
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(to right, #011962, #001225);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+body {
+  /*Background image for the header*/
+  background-image: url("https://media.istockphoto.com/id/477110708/photo/weather-forecast.webp?b=1&s=170667a&w=0&k=20&c=cJDnRfarWTRVrTRGBv82aQUYmkgZp3FTCSLKLXdrcCU=");
+}
