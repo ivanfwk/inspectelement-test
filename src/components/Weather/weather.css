@@ -1,0 +1,9 @@
+.weatherDiv {
+  position: sticky;
+  height: 33%;
+}
+
+h2, h3 {
+  color: red;
+  padding-left: 3%;
+}

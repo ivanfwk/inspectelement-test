@@ -1,0 +1,11 @@
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 5px solid;
+  height: 85%;
+  width: 25%;
+  overflow: hidden;
+  margin-left: 35%;
+  padding: 10px;
+}
