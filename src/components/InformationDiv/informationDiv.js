@@ -6,6 +6,7 @@ import Weather from "../Weather/weather.js";
 const mobileDiv = () => {
   return (
     <div className="infoDiv">
+      {/* Values here will be inputted in the props in its child component */}
       <Weather
         day="Thursday"
         weather="Sunny"

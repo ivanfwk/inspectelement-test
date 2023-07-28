@@ -5,6 +5,7 @@ import "./weather.css";
 const weather = ({day, weather, temperature, humidity}) => {
   let backgroundStyle = {};
 
+  // Set the background of the div based on its weather
   if (weather === "Sunny") {
     backgroundStyle = {
       backgroundImage: 'url("https://images.unsplash.com/photo-1511836536898-6d6f1b8f6948?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VubnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80")'
@@ -21,6 +22,7 @@ const weather = ({day, weather, temperature, humidity}) => {
 
   return (
     <div className="weatherDiv" style={backgroundStyle}>
+      {/* These data will be inputted in its parent component */}
       <h2>{day}</h2>
       <h3>{weather}</h3>
       <h3>{temperature}°C</h3>
